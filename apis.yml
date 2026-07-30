@@ -1,7 +1,27 @@
 aid: lumeon
 name: Lumeon
-description: Lumeon is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lumeon is a clinical automation and care orchestration platform that uses
+  intelligent automation and real-time data integration to remove inefficiencies
+  from care-coordination processes. It lets health systems scale best-practice
+  care pathways across the enterprise so clinicians can focus on patients while
+  operational cost falls and outcomes improve. Lumeon serves 70+ health systems
+  globally — including Optum, NYC Health+Hospitals, and the NHS — and is now part
+  of Health Catalyst. No public developer API, OpenAPI, or SDK surface is
+  published; this profile captures the company identity and its security and
+  compliance posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lumeon.com/wp-content/themes/lumeon-responsive/layout2/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/lumeon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Care Orchestration
+- Clinical Automation
+- Care Coordination
+- Health Systems
+- Digital Health
+common:
+- type: Website
+  url: https://lumeon.com/
+- type: Blog
+  url: https://lumeon.com/resources/blogs/
+- type: Support
+  url: https://lumeon.com/contact/
+- type: PrivacyPolicy
+  url: https://lumeon.com/privacy-policy/
+- type: Compliance
+  url: https://lumeon.com/hipaa-n3/
+- type: Conformance
+  url: conformance/lumeon-conformance.yml
+- type: DomainSecurity
+  url: security/lumeon-domain-security.yml
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://lumeon.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
