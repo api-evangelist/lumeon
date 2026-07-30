@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://lumeon.com/hipaa-n3/
+note: >-
+  Lumeon publishes no public API/OpenAPI, so standards are asserted only from
+  the provider's published security & compliance page, not derived from a spec.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: 'Compliance page: "hosted in a secure N3 compliant and ISO27001 datacentre"'
+- id: hipaa
+  conforms: true
+  evidence: 'Compliance page dedicated to HIPAA/N3 protection of patient health information'
+- id: cyber-essentials-plus
+  conforms: true
+  evidence: 'Compliance page: "awarded the Cyber Essentials Plus certification"'
+- id: nhs-n3
+  conforms: true
+  evidence: 'Compliance page: "hybrid N3 approved data architectures" + NHS-standard encryption'
